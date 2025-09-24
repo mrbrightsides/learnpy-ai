@@ -77,7 +77,7 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
           <div className="w-full max-w-2xl text-center space-y-8 md:space-y-12">
             <h1 className="text-3xl md:text-6xl font-light tracking-tight text-foreground animate-slide-up">
               <span className="font-mono font-semibold tracking-tight bg-foreground text-background px-4 py-3 rounded-2xl shadow-border-medium">
-                AI GATEWAY
+                PYGATEWAY
               </span>
             </h1>
             <div className="w-full animate-slide-up" style={{ animationDelay: '100ms' }}>
@@ -96,7 +96,7 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
                   <div className="flex flex-1 items-center">
                     <Input
                       name="prompt"
-                      placeholder="Ask a question..."
+                      placeholder="Tulis pertanyaan disini..."
                       onChange={(e) => setInput(e.target.value)}
                       value={input}
                       autoFocus
@@ -194,7 +194,7 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
               <div className="flex flex-1 items-center">
                 <Input
                   name="prompt"
-                  placeholder="Ask a question..."
+                  placeholder="Tulis pertanyaan disini..."
                   onChange={(e) => setInput(e.target.value)}
                   value={input}
                   className="flex-1 border-0 bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 text-base placeholder:text-muted-foreground/60 font-medium"
@@ -225,24 +225,24 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
 
       <footer className="pb-8 text-center animate-fade-in" style={{ animationDelay: '200ms' }}>
         <p className="text-xs md:text-sm text-muted-foreground">
-          The models in the list are a small subset of those available in the
-          Vercel AI Gateway.
+          Silakan ajukan pertanyaan seputar Web3 disini. 
+          Akan dijawab secara fun dan santai.
           <br />
-          See the{" "}
+          Made with 💙 for the sake of knowledge by {" "}
           <Button
             variant="link"
             asChild
             className="p-0 h-auto text-xs md:text-sm font-normal"
           >
             <a
-              href="https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%2Fmodel-list&title="
+              href="https://s.id/khudri"
               target="_blank"
               rel="noopener noreferrer"
             >
-              model library
+              Khudri
             </a>
           </Button>{" "}
-          for the full set.
+          and credit to AI SDK from Vercel.
         </p>
       </footer>
     </div>
