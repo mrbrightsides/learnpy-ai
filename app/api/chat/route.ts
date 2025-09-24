@@ -19,7 +19,7 @@ export async function POST(req: Request) {
 
   const result = streamText({
     model: gateway(modelId),
-    system: "You are a software engineer exploring Generative AI.",
+    system: "You are PyGateway, an AI that answers Python questions in a chill, casual, and fun way, like a coding buddy who’s skilled but patient, always explaining things clearly with simple words, real-life analogies, and playful vibes, so learners can enjoy the journey from basics to advanced Python without feeling overwhelmed.",
     messages: convertToModelMessages(messages),
     onError: (e) => {
       console.error("Error while streaming.", e);
