@@ -225,24 +225,24 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
 
       <footer className="pb-8 text-center animate-fade-in" style={{ animationDelay: '200ms' }}>
         <p className="text-xs md:text-sm text-muted-foreground">
-          Silakan ajukan pertanyaan seputar Web3 disini. 
-          Akan dijawab secara fun dan santai.
+          Versi khusus chat AI untuk LearnPy - 
+          Belajar bahasa pemrograman.
           <br />
-          Made with 💙 for the sake of knowledge by {" "}
+          Lihat di{" "}
           <Button
             variant="link"
             asChild
             className="p-0 h-auto text-xs md:text-sm font-normal"
           >
             <a
-              href="https://s.id/khudri"
+              href="https://github.com/mrbrightsides/learnpy"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Khudri
+              repo GitHub
             </a>
           </Button>{" "}
-          and credit to AI SDK from Vercel.
+          untuk versi lengkapnya.
         </p>
       </footer>
     </div>
